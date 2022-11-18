@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import { Stopwatch } from './Components/Counter';
+import { AllRoutes } from './AllRoutes/AllRoutes';
+
 
 function App() {
   return (
     <div className="App">
-      <Stopwatch />
+      <AllRoutes />
     </div>
   );
 }
